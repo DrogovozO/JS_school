@@ -1,0 +1,21 @@
+.letter {
+    display: inline-block;
+    border-bottom: solid 1px #000;
+    width: 25px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 14pt;
+}
+#randomRiddle {
+    margin: 0 auto;
+    display: block;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #0FA;
+    font-weight: 700;
+    font-size: 14pt;
+}
+.question {
+    font-size: 16pt;
+    text-align: center;
+}
