@@ -1,0 +1,66 @@
+.field-group:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.btn-sign-up, #modal-dialog, .checkIn input {
+    border: 1px solid #175477;
+    color: #175477;
+}
+.btn-sign-up {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    background: 0;
+    padding: 10px 25px;
+    font-size: 16pt;
+}
+.btn-sign-up:hover, .checkIn input:hover {
+    color: #fff;
+    background-color: #175477;
+}
+h2 {
+    padding-left: 15px;
+}
+#modal-dialog {
+   /* display: none;*/
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.close {
+    float: right;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    color: #175477;
+    font-size: 18px;
+    outline: none;
+}
+.close:hover {
+    color: #000;
+}
+.field-group {
+    padding-bottom: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+label {
+    padding-top: 3px;
+    float: left;
+}
+.input-form {
+    float: right;
+}
+.checkIn input {
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    background: 0;
+    }
+h2 {
+    margin-top: 10px;
+}
