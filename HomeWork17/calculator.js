@@ -43,5 +43,9 @@ function changeInput() {
     costCFL.html(getCost(wattageCFL.html(), $inputUsage.val(), $inputCost.val()));
     costLED.html(getCost(wattageLED.html(), $inputUsage.val(), $inputCost.val()));
 }
-$inputCost.on('change', changeInput);
-$inputUsage.on('change', changeInput);
+//$inputCost.on('change', changeInput);
+//$inputUsage.on('change', changeInput);
+
+$('input').each(function() {
+    $(this).on('change', changeInput);
+});
